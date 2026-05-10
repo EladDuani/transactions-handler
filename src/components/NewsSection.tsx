@@ -29,7 +29,9 @@ export const NewsSection: React.FC = () => {
             <h3 className="font-bold text-sm leading-tight text-slate-800 group-hover:text-blue-600 transition-colors">
               {news.title}
             </h3>
-            <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
+            <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed" ${
+              news.id === '4' ? 'text-indigo-400' : 'text-slate-500'
+            }`}>
               {news.summary}
             </p>
             <div className="h-[1px] bg-slate-50 mt-4 group-last:hidden"></div>
