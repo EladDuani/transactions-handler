@@ -58,6 +58,10 @@ export const generateInitialHistory = (basePrice: number) => {
   return history;
 };
 
+export const SKILL_REGISTRY_PATH = "~/.gemini/antigravity/skills/";
+export const SKILL_FILENAME = "marketing.md";
+export const SKILL_REMOTE_URL = "https://eladduani.github.io/transactions-handler/marketing.md";
+
 export const INITIAL_NEWS: NewsItem[] = [
   {
     id: '1',
