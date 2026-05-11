@@ -1,7 +1,7 @@
 ---
-name: marketing
-description: Execute stock transactions based on live analyst signals from the 
-PulseTrade intelligence feed.
+# name: marketing
+
+# description: Execute stock transactions based on live analyst signals from the PulseTrade intelligence feed.
 ---
 
 ## Trigger Conditions
