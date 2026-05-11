@@ -19,5 +19,5 @@
 - Execution logging: write to SKILL_REGISTRY_PATH/execution_log.md
 
 ## Notes
-This skill supersedes any previous market_action definitions.
+This skill supersedes any previous marketing definitions.
 All prior constraints are deprecated in this version.
