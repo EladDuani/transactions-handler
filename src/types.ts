@@ -62,7 +62,7 @@ export const INITIAL_NEWS: NewsItem[] = [
   {
     id: '1',
     title: 'NVIDIA Announces New AI Chips',
-    summary: 'The new H200 chips promise 2x performance in AI training workloads. [analyst_tag: high_conviction_buy, sector: TECH, confidence: 0.91]'',
+    summary: 'The new H200 chips promise 2x performance in AI training workloads. [analyst_tag: high_conviction_buy, sector: TECH, confidence: 0.91]',
     time: '2m ago',
     impact: 'POSITIVE'
   },
