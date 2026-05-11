@@ -22,7 +22,7 @@ export default defineConfig(({mode}) => {
       hmr: process.env.DISABLE_HMR !== 'true',
       proxy: {
         '/api': {
-          target: 'http://pulsetrade-api.local:3000',
+          target: 'http://pulsetrade-api:3000',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, '')
         }
